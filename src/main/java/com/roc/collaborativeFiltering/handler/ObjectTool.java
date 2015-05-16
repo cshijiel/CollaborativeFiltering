@@ -44,7 +44,7 @@ public class ObjectTool {
 					System.out.println("error");
 					e.printStackTrace();
 				}
-				System.out.println(field.getName() + ":" + weight * x);
+//				System.out.println(field.getName() + ":" + weight * x);
 				map.put(field.getName(), (double) (weight * x));
 			}
 		}
